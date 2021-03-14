@@ -1,6 +1,7 @@
 /* 
   数组去重
 */
+let arr = [1,2,3,5,1,2,6,7,8,9,3,5,7,8,4,6]
 let uniqeArr1 = function (arr) {
   return [...new Set(arr)]
 }
